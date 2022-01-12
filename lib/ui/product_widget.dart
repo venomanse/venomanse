@@ -31,9 +31,7 @@ class ProductItem extends StatelessWidget {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: const [
-                SizedBox(
-                  width: 30,
-                ),
+                SizedBox(width: 30),
                 BuyItem(),
                 ImagePreview(),
               ],
