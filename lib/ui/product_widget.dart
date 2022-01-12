@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
+
 import '../../../fakeapi/models/rating.dart';
 import 'buy_item_widget.dart';
 import 'image_preview_widget.dart';
-import 'product/rating_widget.dart';
 import 'product_title_widget.dart';
+import 'rating_widget.dart';
 
 class ProductItem extends StatelessWidget {
   const ProductItem(
@@ -48,4 +49,3 @@ class ProductItem extends StatelessWidget {
         ],
       );
 }
-
